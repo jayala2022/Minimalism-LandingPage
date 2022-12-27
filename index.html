@@ -5,45 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minimalism ♡</title>
+    <style>
+      body {
+        background: #949d9d;
+      }
+
+      h1,
+      h2 {
+        color: #cbd6d6;
+        font-family: Lato, sans-serif;
+        text-align: center;
+      }
+
+      h1 {
+        text-shadow: -2px 7px 10px rgba(203, 214, 214, 0.3);
+      }
+
+      h2 {
+        border: 2px solid #cbd6d6;
+        border-radius: 4px;
+        font-size: 18px;
+        padding: 15px;
+      }
+
+      em {
+        font-weight: lighter;
+        font-size: 14px;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 8px;
+      }
+
+      p {
+        font-size: 15px;
+        margin: 20px 0 10px;
+        text-align: center;
+      }
+
+      ul {
+        padding: 0;
+      }
+
+      li {
+        max-width: 400px;
+        margin: 0 auto;
+        list-style-type: none;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        background: ##fdfa71;
+        color: :black;
+        font-size: 18px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px 60px;
+      }
+
+      .learn-more {
+        color: #cbd6d6;
+        text-decoration: none;
+        transition: all 230ms ease-in-out;
+      }
+
+      .learn-more:hover {
+        color: black;
+      }
+
+      .footer {
+        text-align: center;
+        color: #cbd6d6;
+        font-family: Lato, sans-serif;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
-    <h1>Minimalism Lifestyle</h1>
-    <h2>What is Minimalism?</h2>
-    <img
-      src="https://cdn-images-1.medium.com/max/2600/1*n6ZgCIOLBrSiarUv6b8ENw.jpeg"
-      alt="minimalism-furniture"
-      width="400"
-    />
-    <p>Minimalism is a tool that can assist you in finding freedom from :</p>
-    <ul>
-      <li>fear</li>
-      <li>worry</li>
-      <li>overwhelm</li>
-      <li>guilt</li>
-      <li>depression</li>
-      <li>trappings of the consumer culture we've built our lives around</li>
-    </ul>
-    <h2>
-      Checkout these pages, if interested in
-      <small>minimalizing your life</small>
+    <div class="container">
+      <h1>Minimalism Lifestyle</h1>
+      <h2>What is Minimalism?</h2>
+      <img
+        src="https://cdn-images-1.medium.com/max/2600/1*n6ZgCIOLBrSiarUv6b8ENw.jpeg"
+        alt="minimalism-furniture"
+        width="400"
+      />
+      <p>Minimalism is a tool that can assist you in finding freedom from :</p>
+      <ul>
+        <li>→ fear</li>
+        <li>→ worry</li>
+        <li>→ overwhelm</li>
+        <li>→ guilt</li>
+        <li>→ depression</li>
+        <li>
+          → trappings of the consumer culture we've built our lives around
+        </li>
+      </ul>
+      <h2>
+        Checkout these pages, if interested in
+        <em>minimalizing your life</em>
+      </h2>
       <ul>
         <li>
-          ♡
-          <a href="https://www.theminimalists.com/minimalism/" target="_blank"
-            >the minimalists</a
+          <a
+            href="https://www.theminimalists.com/minimalism/"
+            target="_blank"
+            class="learn-more"
+            >♡ the minimalists</a
           >
         </li>
         <li>
-          ♡
           <a
             href="https://www.becomingminimalist.com/what-is-minimalism/"
             target="_blank"
-            >becoming minimalists</a
+            class="learn-more"
+            >♡ becoming minimalists</a
           >
         </li>
       </ul>
-    </h2>
-    <button>Let's Start Minimalizing</button>
-    <p>This page was coded by <a href="#">J.Ayala</a></p>
+      <button>Let's Start Minimalizing</button>
+      <p class="footer">This page was coded by J.Ayala</p>
+    </div>
   </body>
 </html>
